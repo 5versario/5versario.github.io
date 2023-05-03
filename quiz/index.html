@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>QUIZ</h1>
+        <p>Preguntas muy sencillitas para Carmen</p>
+    </header>
+
+    <div class="container">
+        <section id="p0">
+            <h3>1 - ¿Cuál es la matrícula del "Gamba"?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)">4233GMB
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)">4333GMB
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)">4433GMB
+            </label>
+            <label>
+                <input type="radio" value="4" name="p0" onclick="respuesta(0,this)">4334GMB
+            </label>
+        </section>
+
+        <section id="p1">
+            <h3>2 - ¿Cuándo se convitió Santi en catedrático?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)">18/04/2023
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)">19/04/2023
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)">21/04/2023
+            </label>
+            <label>
+                <input type="radio" value="4" name="p1" onclick="respuesta(1,this)">25/04/2023
+            </label>
+        </section>
+
+        <section id="p2">
+            <h3>3 - ¿Cuándo acaba Carmen el curso?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)">El 28 de Mayo
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)">El 30 de Mayo
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)">El 29 de Mayo
+            </label>
+            <label>
+                <input type="radio" value="4" name="p2" onclick="respuesta(2,this)">El 2 de Junio
+            </label>
+        </section>
+
+        <section id="p3">
+            <h3>4 - ¿En qué lugar querrás tener tu casa?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)">Tomares
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)">Castilleja de la Cuesta
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)">Los Remedios
+            </label>
+            <label>
+                <input type="radio" value="4" name="p3" onclick="respuesta(3,this)">Madrid
+            </label>
+        </section>
+
+        <section id="p4">
+            <h3>5 - ¿Cuándo es el santo de Antonio?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)">10 de Junio
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)">13 de Junio
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)">15 de Junio
+            </label>
+            <label>
+                <input type="radio" value="4" name="p4" onclick="respuesta(4,this)">16 de Junio
+            </label>
+        </section>
+
+        <section id="p5">
+            <h3>6 - ¿Cuándo fue la erupción del Vesubio?</h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)">79 d.C
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)">80 d.C
+            </label>
+            <label>
+                <input type="radio" value="3" name="p5" onclick="respuesta(5,this)">75 d.C
+            </label>
+            <label>
+                <input type="radio" value="4" name="p5" onclick="respuesta(5,this)">81 d.C
+            </label>
+        </section>
+
+        <section id="p6">
+            <h3>7 - ¿Qué traje de flamenca le gusta más a Antonio?</h3>
+            <label>
+                <input type="radio" value="1" name="p6" onclick="respuesta(6,this)">Azul
+            </label>
+            <label>
+                <input type="radio" value="2" name="p6" onclick="respuesta(6,this)">Rojo
+            </label>
+            <label>
+                <input type="radio" value="3" name="p6" onclick="respuesta(6,this)">Lila
+            </label>
+            <label>
+                <input type="radio" value="4" name="p6" onclick="respuesta(6,this)">Rosa
+            </label>
+        </section>
+
+        <section id="p7">
+            <h3>8 - ¿Quién escribió Cien años de Soledad?</h3>
+            <label>
+                <input type="radio" value="1" name="p7" onclick="respuesta(7,this)">Vargas Llosa
+            </label>
+            <label>
+                <input type="radio" value="2" name="p7" onclick="respuesta(7,this)">Julio Cortázar
+            </label>
+            <label>
+                <input type="radio" value="3" name="p7" onclick="respuesta(7,this)">Anónimo
+            </label>
+            <label>
+                <input type="radio" value="4" name="p7" onclick="respuesta(7,this)">Gabriel García Márquez
+            </label>
+        </section>
+
+        <button onclick="corregir()">CORREGIR</button>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
